@@ -1,0 +1,698 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 10:46:51 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/python_project/daliyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 10:50:41 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/python_project/daliyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 10:54:40 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/daliyfresh
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 11:05:08 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailfresh
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 11:06:28 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33345 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x555d8305f350
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555d8305f350 pid: 7814 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7814)
+spawned uWSGI worker 1 (pid: 7817, cores: 2)
+spawned uWSGI worker 2 (pid: 7819, cores: 2)
+spawned uWSGI worker 3 (pid: 7820, cores: 2)
+spawned uWSGI worker 4 (pid: 7823, cores: 2)
+spawned uWSGI http 1 (pid: 7824)
+禽类蛋品
+[pid: 7820|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 748 bytes} [Fri Jul 12 11:06:38 2019] GET / => generated 6868 bytes in 251 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 7820|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 744 bytes} [Fri Jul 12 11:06:38 2019] GET /static/css/main.css => generated 77 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 7820|app: 0|req: 4/3] 127.0.0.1 () {38 vars in 754 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/banner03.jpg => generated 77 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 7820|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 754 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/banner01.jpg => generated 77 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 7817|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 747 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/logo.png => generated 77 bytes in 257 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 7820|app: 0|req: 5/6] 127.0.0.1 () {38 vars in 768 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/icons.png => generated 77 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 7823|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 754 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/banner06.jpg => generated 77 bytes in 360 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 7823|app: 0|req: 2/8] 127.0.0.1 () {38 vars in 746 bytes} [Fri Jul 12 11:06:38 2019] GET /static/css/reset.css => generated 77 bytes in 388 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 7823|app: 0|req: 3/9] 127.0.0.1 () {36 vars in 687 bytes} [Fri Jul 12 11:06:38 2019] GET /favicon.ico => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 7819|app: 0|req: 2/10] 127.0.0.1 () {38 vars in 754 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/banner05.jpg => generated 77 bytes in 433 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 7819|app: 0|req: 2/11] 127.0.0.1 () {38 vars in 754 bytes} [Fri Jul 12 11:06:38 2019] GET /static/images/banner04.jpg => generated 77 bytes in 435 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7824)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 15:43:59 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x563f09e5c060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563f09e5c060 pid: 3470 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3470)
+spawned uWSGI worker 1 (pid: 3472, cores: 2)
+spawned uWSGI worker 2 (pid: 3473, cores: 2)
+spawned uWSGI worker 3 (pid: 3475, cores: 2)
+spawned uWSGI worker 4 (pid: 3476, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 15:53:08 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x55d0f7cdb060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d0f7cdb060 pid: 3903 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3903)
+spawned uWSGI worker 1 (pid: 3905, cores: 2)
+spawned uWSGI worker 2 (pid: 3907, cores: 2)
+spawned uWSGI worker 3 (pid: 3908, cores: 2)
+spawned uWSGI worker 4 (pid: 3911, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 15:55:41 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x562cbbd72060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562cbbd72060 pid: 3954 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3954)
+spawned uWSGI worker 1 (pid: 3956, cores: 2)
+spawned uWSGI worker 2 (pid: 3958, cores: 2)
+spawned uWSGI worker 3 (pid: 3959, cores: 2)
+spawned uWSGI worker 4 (pid: 3960, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 16:17:30 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x55774cd55060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55774cd55060 pid: 4165 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4165)
+spawned uWSGI worker 1 (pid: 4167, cores: 2)
+spawned uWSGI worker 2 (pid: 4169, cores: 2)
+spawned uWSGI worker 3 (pid: 4171, cores: 2)
+spawned uWSGI worker 4 (pid: 4172, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 17:00:51 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x5572b0fb9060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5572b0fb9060 pid: 4481 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4481)
+spawned uWSGI worker 1 (pid: 4483, cores: 2)
+spawned uWSGI worker 2 (pid: 4485, cores: 2)
+spawned uWSGI worker 3 (pid: 4487, cores: 2)
+spawned uWSGI worker 4 (pid: 4489, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 17:22:25 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Fri Jul 12 17:31:21 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Jul 12 17:31:21 2019 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Jul 12 17:31:21 2019 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 17:41:52 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x559faf9d3290
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559faf9d3290 pid: 3122 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3122)
+spawned uWSGI worker 1 (pid: 3124, cores: 2)
+spawned uWSGI worker 2 (pid: 3126, cores: 2)
+spawned uWSGI worker 3 (pid: 3127, cores: 2)
+spawned uWSGI worker 4 (pid: 3130, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Jul 12 17:55:59 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42905 (port auto-assigned) fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x55a548db8350
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a548db8350 pid: 3823 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3823)
+spawned uWSGI worker 1 (pid: 3825, cores: 2)
+spawned uWSGI worker 2 (pid: 3827, cores: 2)
+spawned uWSGI worker 3 (pid: 3828, cores: 2)
+spawned uWSGI worker 4 (pid: 3830, cores: 2)
+spawned uWSGI http 1 (pid: 3833)
+禽类蛋品
+[pid: 3830|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 749 bytes} [Fri Jul 12 17:56:05 2019] GET / => generated 6868 bytes in 486 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 3830|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 747 bytes} [Fri Jul 12 17:56:06 2019] GET /static/images/logo.png => generated 77 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3830|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 747 bytes} [Fri Jul 12 17:56:06 2019] GET /static/images/logo.png => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3833)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 09:25:09 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x55693b247350
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55693b247350 pid: 34872 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34872)
+spawned uWSGI worker 1 (pid: 34874, cores: 2)
+spawned uWSGI worker 2 (pid: 34875, cores: 2)
+spawned uWSGI worker 3 (pid: 34877, cores: 2)
+spawned uWSGI worker 4 (pid: 34878, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 09:25:16 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x55cbe4883350
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55cbe4883350 pid: 34885 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34885)
+spawned uWSGI worker 1 (pid: 34887, cores: 2)
+spawned uWSGI worker 2 (pid: 34889, cores: 2)
+spawned uWSGI worker 3 (pid: 34891, cores: 2)
+spawned uWSGI worker 4 (pid: 34893, cores: 2)
+禽类蛋品
+[pid: 34893|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 825 bytes} [Sat Jul 13 09:25:25 2019] GET / => generated 6868 bytes in 477 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 34893|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 794 bytes} [Sat Jul 13 09:25:28 2019] GET / => generated 6868 bytes in 69 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 09:44:45 2019] ***
+compiled with version: 7.4.0 on 29 May 2019 08:09:37
+os: Linux-4.18.0-21-generic #22~18.04.1-Ubuntu SMP Thu May 16 15:07:19 UTC 2019
+nodename: lingshuai-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/lingshuai/python_project/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/lingshuai/.virtualenvs/start/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/lingshuai/python_project/dailyfresh
+your processes number limit is 11733
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.230.129:8000 fd 3
+Python version: 3.6.8 (default, Jan 14 2019, 11:02:34)  [GCC 8.0.1 20180414 (experimental) [trunk revision 259383]]
+Python main interpreter initialized at 0x557b0ee83350
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557b0ee83350 pid: 35037 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35037)
+spawned uWSGI worker 1 (pid: 35039, cores: 2)
+spawned uWSGI worker 2 (pid: 35041, cores: 2)
+spawned uWSGI worker 3 (pid: 35043, cores: 2)
+spawned uWSGI worker 4 (pid: 35044, cores: 2)
+禽类蛋品
+[pid: 35041|app: 0|req: 1/1] 192.168.230.129 () {40 vars in 673 bytes} [Sat Jul 13 09:44:56 2019] GET / => generated 6868 bytes in 220 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 35039|app: 0|req: 1/2] 192.168.230.129 () {38 vars in 611 bytes} [Sat Jul 13 09:44:57 2019] GET /favicon.ico => generated 77 bytes in 176 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 35044|app: 0|req: 1/3] 192.168.230.1 () {36 vars in 569 bytes} [Sat Jul 13 09:45:04 2019] GET /favicon.ico => generated 77 bytes in 201 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 35044|app: 0|req: 2/4] 192.168.230.1 () {38 vars in 560 bytes} [Sat Jul 13 09:45:06 2019] GET / => generated 6868 bytes in 84 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 35039|app: 0|req: 2/5] 192.168.230.1 () {36 vars in 508 bytes} [Sat Jul 13 09:45:06 2019] GET /favicon.ico => generated 77 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35039|app: 0|req: 3/6] 192.168.230.1 () {40 vars in 609 bytes} [Sat Jul 13 09:45:44 2019] GET /cart/ => generated 0 bytes in 4 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 0)
+[pid: 35043|app: 0|req: 1/7] 192.168.230.1 () {42 vars in 648 bytes} [Sat Jul 13 09:45:44 2019] GET /user/login/ => generated 3116 bytes in 121 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 35043|app: 0|req: 2/8] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:45:44 2019] GET /favicon.ico => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+禽类蛋品
+[pid: 35041|app: 0|req: 2/9] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 09:45:46 2019] GET / => generated 6868 bytes in 63 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 35043|app: 0|req: 3/10] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:45:46 2019] GET /favicon.ico => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 35039|app: 0|req: 4/11] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:46:21 2019] GET /favicon.ico => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35041|app: 0|req: 3/12] 192.168.230.1 () {42 vars in 724 bytes} [Sat Jul 13 09:46:25 2019] GET /user/login/ => generated 3116 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 35043|app: 0|req: 4/13] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:46:25 2019] GET /favicon.ico => generated 77 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+禽类蛋品
+[pid: 35039|app: 0|req: 5/14] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 09:46:28 2019] GET / => generated 6868 bytes in 80 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 35041|app: 0|req: 4/15] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:46:28 2019] GET /favicon.ico => generated 77 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+禽类蛋品
+[pid: 35039|app: 0|req: 6/16] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 09:47:59 2019] GET / => generated 6868 bytes in 64 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 35039|app: 0|req: 7/17] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 09:47:59 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 35043|app: 0|req: 5/18] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 09:52:20 2019] GET / => generated 6868 bytes in 103 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 35044|app: 0|req: 3/19] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 11:27:17 2019] GET / => generated 6868 bytes in 83 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 35039|app: 0|req: 8/20] 192.168.230.1 () {40 vars in 663 bytes} [Sat Jul 13 11:27:18 2019] GET / => generated 6868 bytes in 102 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 35044|app: 0|req: 4/21] 192.168.230.1 () {42 vars in 724 bytes} [Sat Jul 13 11:27:20 2019] GET /user/login/ => generated 3116 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 35039|app: 0|req: 9/22] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 11:27:20 2019] GET /favicon.ico => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 35044|app: 0|req: 5/23] 192.168.230.1 () {42 vars in 741 bytes} [Sat Jul 13 11:27:28 2019] GET /user/register/ => generated 2705 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 35043|app: 0|req: 6/24] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 11:27:28 2019] GET /favicon.ico => generated 77 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35041|app: 0|req: 5/25] 192.168.230.1 () {44 vars in 781 bytes} [Sat Jul 13 11:27:32 2019] GET /user/register_exist/?uname=lingshuai => generated 12 bytes in 53 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 35044|app: 0|req: 6/26] 192.168.230.1 () {42 vars in 738 bytes} [Sat Jul 13 11:27:37 2019] GET /user/login/ => generated 3116 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 35041|app: 0|req: 6/27] 192.168.230.1 () {38 vars in 611 bytes} [Sat Jul 13 11:27:37 2019] GET /favicon.ico => generated 77 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+lingshuai 12345678
+[pid: 35043|app: 0|req: 7/28] 192.168.230.1 () {48 vars in 896 bytes} [Sat Jul 13 11:27:43 2019] POST /user/login_handle/ => generated 0 bytes in 86 msecs (HTTP/1.1 302) 7 headers in 342 bytes (1 switches on core 0)
+
+['']
+[pid: 35044|app: 0|req: 7/29] 192.168.230.1 () {44 vars in 848 bytes} [Sat Jul 13 11:27:43 2019] GET /user/user_center_info/ => generated 3020 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 35039|app: 0|req: 10/30] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:43 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35044|app: 0|req: 8/31] 192.168.230.1 () {42 vars in 831 bytes} [Sat Jul 13 11:27:45 2019] GET /user/user_center_order/ => generated 4908 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 35044|app: 0|req: 9/32] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:45 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 35041|app: 0|req: 7/33] 192.168.230.1 () {42 vars in 830 bytes} [Sat Jul 13 11:27:46 2019] GET /user/user_center_site/ => generated 3605 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 35044|app: 0|req: 10/34] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:46 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35044|app: 0|req: 11/35] 192.168.230.1 () {42 vars in 831 bytes} [Sat Jul 13 11:27:47 2019] GET /user/user_center_order/ => generated 4908 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 35043|app: 0|req: 8/36] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:47 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 35044|app: 0|req: 12/37] 192.168.230.1 () {42 vars in 830 bytes} [Sat Jul 13 11:27:48 2019] GET /user/user_center_site/ => generated 3605 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 35043|app: 0|req: 9/38] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:49 2019] GET /favicon.ico => generated 77 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+禽类蛋品
+[pid: 35039|app: 0|req: 11/39] 192.168.230.1 () {42 vars in 785 bytes} [Sat Jul 13 11:27:56 2019] GET / => generated 6906 bytes in 57 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 35041|app: 0|req: 8/40] 192.168.230.1 () {38 vars in 672 bytes} [Sat Jul 13 11:27:56 2019] GET /favicon.ico => generated 77 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
