@@ -80,30 +80,6 @@
 {% block head %}
 	<script type="text/javascript">
 
-		{#$('#add_cart').click(function(){#}
-		{#    //判断是否登录，若未登录则提示先登录#}
-        {#    if ($('.login_btn').text().indexof('登录')>=0){#}
-        {#        alert('请先登录后再购买');#}
-        {#        location.href='/user/login';#}
-        {#        return;#}
-        {#    }#}
-		{#	$(".add_jump").stop().animate({#}
-		{#		'left': $to_y+7,#}
-		{#		'top': $to_x+7,#}
-        {#        'fast': function() {#}
-        {#            $(".add_jump").fadeOut('fast', function () {#}
-        {#                $('#show_count').html(2);#}
-        {#            });#}
-        {#        }#}
-		{#	});#}
-        {##}
-		{#	num = parseInt($('.num_show').val());#}
-		{#	$.get('/cart/add{{ g.id }}_'+num+'/',function (data) {#}
-        {#        $('#show_count').text(data.count);#}
-        {#    });#}
-        {#});#}
-
-
         function add(){
             num = parseFloat($('.num_show').val());
             $('.num_show').val(num+1);
@@ -192,24 +168,6 @@
 	</div>
     <div class="add_jump"></div>
 
-{#	<div class="main_wrap clearfix">#}
-{#		<div class="l_wrap fl clearfix">#}
-{#			<div class="new_goods">#}
-{#				<h3>新品推荐</h3>#}
-{#				<ul>#}
-{#					<li>#}
-{#						<a href="#"><img src="/static/images/goods/goods001.jpg"></a>#}
-{#						<h4><a href="#">进口柠檬</a></h4>#}
-{#						<div class="prize">￥3.90</div>#}
-{#					</li>#}
-{#					<li>#}
-{#						<a href="#"><img src="/static/images/goods/goods002.jpg"></a>#}
-{#						<h4><a href="#">玫瑰香葡萄</a></h4>#}
-{#						<div class="prize">￥16.80</div>#}
-{#					</li>#}
-{#				</ul>#}
-{#			</div>#}
-{#		</div>#}
     <div class="main_wrap clearfix">
         <div class="l_wrap fl clearfix">
                 <div class="new_goods">
@@ -241,22 +199,4 @@
 
             </div>
     </div>
-
-
-{#	<div class="footer">#}
-{#		<div class="foot_link">#}
-{#			<a href="#">关于我们</a>#}
-{#			<span>|</span>#}
-{#			<a href="#">联系我们</a>#}
-{#			<span>|</span>#}
-{#			<a href="#">招聘人才</a>#}
-{#			<span>|</span>#}
-{#			<a href="#">友情链接</a>#}
-{#		</div>#}
-{#		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>#}
-{#		<p>电话：010-****888    京ICP备*******8号</p>#}
-{#	</div>#}
-
-{#</body>#}
-{#</html>#}
 {% endblock content %}
