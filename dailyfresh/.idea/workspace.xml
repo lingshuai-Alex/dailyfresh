@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e8da-d86a-4b35-a577-ad45e5baa778" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_goods/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_goods/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_goods/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_goods/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_goods/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_goods/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_goods/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_goods/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_order/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_order/place_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_user/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_user/user_center_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_user/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_user/user_center_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/df_user/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/df_user/user_center_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/search/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyfresh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dailyfresh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/df_goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/df_goods/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uswgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/uswgi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uwsgi.pid" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.pid" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +22,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uwsgi.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="240">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dailyfresh/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df_goods/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#15#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,9 +123,6 @@
         <option value="$USER_HOME$/Envs/start/Lib/site-packages/haystack/backends/whoosh_cn_backend.py" />
         <option value="$PROJECT_DIR$/df_goods/search_indexes.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/df_goods/views.py" />
-        <option value="$PROJECT_DIR$/dailyfresh/settings.py" />
-        <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/templates/df_cart/cart.html" />
         <option value="$PROJECT_DIR$/templates/df_goods/base.html" />
         <option value="$PROJECT_DIR$/templates/df_goods/detail.html" />
@@ -127,10 +134,13 @@
         <option value="$PROJECT_DIR$/templates/df_user/user_center_order.html" />
         <option value="$PROJECT_DIR$/templates/df_user/user_center_site.html" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
+        <option value="$PROJECT_DIR$/df_goods/views.py" />
+        <option value="$PROJECT_DIR$/dailyfresh/settings.py" />
+        <option value="$PROJECT_DIR$/uwsgi.ini" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="width" value="689" />
     <option name="height" value="735" />
@@ -141,8 +151,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dailyfresh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dailyfresh" type="462c0819:PsiDirectoryNode" />
+              <item name="df_goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,12 +253,14 @@
       <workItem from="1562913178355" duration="5000" />
       <workItem from="1562913339211" duration="647000" />
       <workItem from="1562925277926" duration="2103000" />
-      <workItem from="1563113347093" duration="885000" />
+      <workItem from="1563113347093" duration="1225000" />
+      <workItem from="1563344957963" duration="2066000" />
+      <workItem from="1563607459985" duration="3497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199395000" />
+    <option name="totallyTimeSpent" value="205298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,10 +272,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="733" height="575" extended-state="7" />
+    <frame x="67" y="25" width="733" height="575" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2613803" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2701909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,23 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfresh/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df_goods/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/df_cart/cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3360">
@@ -633,10 +643,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/df_goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#15#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfresh/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="240">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -25,7 +25,7 @@ SECRET_KEY = 'v-=5=v6^)hdnmobmxq@4y!a-+h2))4#yvl5w9t27=asi7feo+m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*',]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -153,3 +153,11 @@ HAYSTACK_CONNECTIONS = {
 #自动生成索引
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 HAYSTACK_SEARCH_RESULTS_PER_PAGE=18
+
+CACHES = {
+    "default": {
+        "BACKEND": "redis_cache.cache.RedisCache",
+        "LOCATION": "192.168.230.129:6379",
+        'TIMEOUT': 60,
+    },
+}

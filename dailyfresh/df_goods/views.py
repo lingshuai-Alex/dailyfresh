@@ -3,7 +3,11 @@
 from django.shortcuts import render
 from df_goods.models import *
 from django.core.paginator import Paginator,Page
+from django.views.decorators.cache import cache_page
 
+
+#缓存
+@cache_page(60 * 15)
 def index(request):
     # #查询各分类的最新4条数据、最热4条数据
     typelist = TypeInfo.objects.all()
@@ -31,6 +35,8 @@ def index(request):
     print(typeinfo)
     return render(request, 'df_goods/index.html', context)
 
+#缓存
+@cache_page(60 * 15)
 def list(request, tid, pingdex, sort):
     typeinfo = TypeInfo.objects.get(pk=int(tid))
     news = typeinfo.goodsinfo_set.order_by('-id')[0:2]
